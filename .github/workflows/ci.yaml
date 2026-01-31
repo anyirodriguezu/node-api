@@ -34,3 +34,8 @@ jobs:
       with:
         name: node-app
         path: app.tar.gz
+
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "desplegando aplicación"
